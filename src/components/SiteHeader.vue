@@ -17,7 +17,5 @@ export default {
 <style scoped lang="scss">
 @import '../assets/scss/header.scss';
 @import '../assets/scss/variabili.scss';
-.nav{
-  background-color: rgba(46, 58, 70, 1);
-}
+
 </style>
