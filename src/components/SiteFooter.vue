@@ -1,7 +1,5 @@
 <template>
-    <div class="footer">
-       FOOTER
-    </div>
+  <div class="ciao"></div>
 </template>
 <script>
 export default {
