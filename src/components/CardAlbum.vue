@@ -1,7 +1,7 @@
 <template>
     <div class="row">
   <div class="col-md-2" v-for="album in albums" :key="album.title">
-    <div class="card">
+    <div class="card card_album">
        <img :src="album.poster" alt="album.title">
        <h1>{{album.title}}</h1>
        <p>{{album.author}}</p>
@@ -36,5 +36,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import '../assets/scss/card.scss';
 
 </style>

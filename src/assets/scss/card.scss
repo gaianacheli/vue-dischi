@@ -1,0 +1,25 @@
+@import './variabili.scss';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
+.row {
+    justify-content: center;
+}
+.card_album {
+    height: 340px;
+    background-color: rgba(46, 58, 70, 1);
+    margin-bottom: 1rem;
+    align-items: center;
+    img{
+        padding: 11px;
+        width: 180px;
+    }
+    h1{
+        font-size: 22px;
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    p{
+        margin: 0;
+        color: $color_text;
+    }
+}

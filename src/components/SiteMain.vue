@@ -20,6 +20,8 @@ export default {
 @import '../assets/scss/variabili.scss';
 main{
   background-color: $background_main;
+  padding: 6rem 2rem;
+
 }
 
 </style>

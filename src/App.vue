@@ -28,6 +28,7 @@ export default {
 
 <style lang="scss">
 @import '../src/assets/scss/variabili.scss';
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
 
 *{
   margin: 0;
