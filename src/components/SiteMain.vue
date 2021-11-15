@@ -1,15 +1,25 @@
 <template>
-<p>MAIN</p>
+<main class="main">
+   <CardAlbum/>
+</main>
+ 
 </template>
+
 <script>
+import CardAlbum from './CardAlbum.vue';
+
 export default {
-  name: 'SiteMain',
-  props: {
-    
+  components:{
+    CardAlbum,
   }
-}
+  }
+
 </script>
 
 <style scoped lang="scss">
+@import '../assets/scss/variabili.scss';
+main{
+  background-color: $background_main;
+}
 
 </style>
