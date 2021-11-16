@@ -20,7 +20,7 @@ export default {
 @import '../assets/scss/variabili.scss';
 main{
   background-color: $background_main;
-  padding: 6rem 1rem;
+  padding: 0rem 1rem;
 
 }
 
